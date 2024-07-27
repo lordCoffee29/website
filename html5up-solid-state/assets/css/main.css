@@ -101,9 +101,12 @@ input, select, textarea {
 	body {
 		background-color: #2e3141;
 		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-		background-size: auto, cover;
-		background-attachment: fixed, fixed;
-		background-position: center, center;
+		background-size: auto,
+ cover;
+		background-attachment: fixed,
+ fixed;
+		background-position: center,
+ center;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3381,6 +3384,34 @@ input, select, textarea {
 		#banner .inner {
 			margin: 0 auto;
 			width: 55em;
+			font-size: 23px;
+		}
+
+		#banner .inner .fa-dragon {
+			font-size: 50px;
+			margin-bottom: 7px;
+		}
+
+		.resume-button {
+			display: inline-block;
+			padding: 5px 15px;
+			border: 2px solid white;
+			color: white;
+			text-decoration: none;
+			font-size: 18px;
+			text-align: center;
+			border-radius: 4px; /* Optional: for rounded corners */
+			background-color: transparent; /* Clear interior */
+			transition: background-color 0.3s, color 0.3s;
+		}
+		
+		.resume-button:hover {
+			background-color: white;
+			color: #000; /* Change to a contrasting color on hover */
+		}
+		
+		.special {
+			/* Your existing styles for the "About me" button */
 		}
 
 		#banner .logo {
@@ -3464,8 +3495,10 @@ input, select, textarea {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #2e3141;
 				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-				background-size: auto, cover;
-				background-position: center, center;
+				background-size: auto,
+ cover;
+				background-position: center,
+ center;
 				margin-bottom: -6.5em;
 			}
 
@@ -3552,6 +3585,13 @@ input, select, textarea {
 			width: 55em;
 		}
 
+		#wrapper > header .inner2 {
+			padding: 1.5em;
+			width: 55em;
+			text-align: left;
+			margin: 0;
+		}
+
 		#wrapper > header h2 {
 			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 			font-size: 2em;
@@ -3568,14 +3608,26 @@ input, select, textarea {
 			text-transform: uppercase;
 		}
 
+		#wrapper > header p2 {
+			font-family: Raleway, Helvetica, sans-serif;
+			font-size: 1em;
+			font-weight: 200;
+			letter-spacing: 0.1em;
+			line-height: 2;
+			text-transform: uppercase;
+			margin-bottom: 7px;
+		}
+
 	@media screen and (max-width: 1280px) {
 
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-			background-size: auto, cover;
-			background-position: center, 0% 30%;
+			background-size: auto,
+ cover;
+			background-position: center,
+ 0% 30%;
 			margin-bottom: -6.5em;
 		}
 
@@ -3585,8 +3637,10 @@ input, select, textarea {
 
 		#wrapper > header {
 			padding: 11em 3em 7.375em 3em ;
-			background-size: auto, cover;
-			background-position: center, 0% 0%;
+			background-size: auto,
+ cover;
+			background-position: center,
+ 0% 0%;
 			margin-bottom: -4.75em;
 		}
 
@@ -3600,7 +3654,8 @@ input, select, textarea {
 
 		#wrapper > header {
 			padding: 6.5em 2em 3em 2em ;
-			background-size: auto, 125%;
+			background-size: auto,
+ 125%;
 			margin-bottom: -2.5em;
 		}
 
@@ -3803,6 +3858,14 @@ input, select, textarea {
 			.wrapper.spotlight .content {
 				width: 100%;
 				-ms-flex: 2;
+			}
+
+			.wrapper.spotlight .content2 {
+				padding: 2em; /* Add space inside the container */
+    			width: 55em; /* Fixed width or adjust as needed */
+    			text-align: left;
+    			margin: 0;
+				font-size: 20px;
 			}
 
 			.wrapper.spotlight:nth-child(2n - 1) .inner {
@@ -4062,8 +4125,10 @@ input, select, textarea {
 		#footer {
 			background-color: #2e3141;
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-			background-size: auto, cover;
-			background-position: center, center;
+			background-size: auto,
+ cover;
+			background-position: center,
+ center;
 			margin-top: -6.5em;
 			padding-top: 6.5em;
 		}
